@@ -6,7 +6,7 @@ let gameEnded = false;
 const PLAYER_COLORS = ["#f57e42", "#429bf5"];
 const board = [[-1,-1,-1],[-1,-1,-1],[-1,-1,-1]];
 
-const cells = document.querySelectorAll(".slot");
+const cells = document.querySelectorAll(".cell");
 const messageBoard = document.querySelector("h3");
 const resetBtn =document.querySelector("#reset")
 
