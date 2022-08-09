@@ -42,10 +42,6 @@ resetBtn.addEventListener("click", startGame);
 
 startGame();
 
-function play(cell) {
-
-}
-
 function writeOnMessageBoard(text, color) {
     messageBoard.innerText = text;
     if(color) {
